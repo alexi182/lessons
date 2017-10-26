@@ -1,0 +1,41 @@
+header.menu, a.next-btn {
+	display: none;
+}
+
+body, article, .content-container  {
+	background: none !important;
+}
+
+article {
+	min-height: 80vh !important;
+	height: 88vh !important;
+	
+}
+
+.content-container {
+	min-height: 88vh !important;
+}
+
+article video {
+	height: 576px !important;
+}
+
+.content-container {
+    margin-left: 30px !important;
+}
+
+.konvajs-content {
+	height: 400px !important;
+}
+
+.lesson-nav + article * {
+	font-size: 20px !important;
+	color: black !important;
+	font-weight: normal;
+}
+
+.content-container *:not(.question-template-button) {
+	font-size: 20px !important;
+	color: black !important;
+	font-weight: normal;
+}
